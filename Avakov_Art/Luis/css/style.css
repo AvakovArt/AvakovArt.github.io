@@ -445,7 +445,7 @@ body {
   font-family: 'Asap', sans-serif;
 }
 
-@media (max-device-width: 320px) {
+@media only all and (max-device-width: 320px) {
   header {
     background-color: #f6f6f6;
   }
