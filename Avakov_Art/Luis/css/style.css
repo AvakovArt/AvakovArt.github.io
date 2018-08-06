@@ -707,7 +707,7 @@ body {
     display: block;
     text-align: right;
     width: 100px;
-    margin-left: 650px;
+    margin-left: 550px;
   }
 
   .header_mnu ul li {
@@ -722,7 +722,7 @@ body {
 
   .header .menu-btn {
     display: block;
-    margin-left: 700px;
+    margin-left: 600px;
     position: fixed;
     margin-top: 10px;
   }
@@ -784,8 +784,8 @@ body {
   }
 
   .testimonials {
-    width: 700px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
   }
 
   .testimonials_slide {
