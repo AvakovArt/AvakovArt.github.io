@@ -445,7 +445,7 @@ body {
   font-family: 'Asap', sans-serif;
 }
 
-@media only all and all and screen and (max-device-width: 320px) {
+@media (max-device-width: 320px) {
   header {
     background-color: #f6f6f6;
   }
@@ -653,4 +653,72 @@ body {
   .footer_soc p {
     font-size: 10px;
   }
+}
+
+.menu-btn {
+  display: none;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+
+.menu-btn span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -10px;
+  width: 20px;
+  height: 2px;
+  background-color: #222;
+}
+
+.menu-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -10px;
+  width: 20px;
+  height: 2px;
+  background-color: #222;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  display: block;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.menu-btn::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -10px;
+  width: 20px;
+  height: 2px;
+  background-color: #222;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  display: block;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.menu-btn_active span {
+  height: 0;
+}
+
+.menu-btn_active:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.menu-btn_active:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
