@@ -445,7 +445,7 @@ body {
   font-family: 'Asap', sans-serif;
 }
 
-@media screen (max-width: 320px), (orientation: portrait), (min-device-pixel-ratio: 1,5) {
+@media only screen (max-width: 320px), (orientation: portrait), (min-device-pixel-ratio: 2), (min-device-pixel-ratio: 3) {
   header {
     background-color: #f6f6f6;
   }
