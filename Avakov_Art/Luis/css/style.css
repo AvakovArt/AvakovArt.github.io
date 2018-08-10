@@ -445,7 +445,7 @@ body {
   font-family: 'Asap', sans-serif;
 }
 
-@media screen (max-width: 360px) {
+@media (max-width: 320px) {
   header {
     background-color: #f6f6f6;
   }
@@ -622,6 +622,223 @@ body {
 
   .footer {
     height: 700px;
+  }
+
+  .footer_bd_input {
+    width: 280px;
+    margin: 30px 20px;
+  }
+
+  .footer_bd_input-big {
+    width: 310px;
+    height: 100px;
+  }
+
+  .footer_btn {
+    margin: 20px;
+  }
+
+  .footer_soc {
+    margin: 20px 10px;
+    width: 290px;
+    height: 100px;
+  }
+
+  .footer_soc span {
+    margin: 0;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+
+  .footer_soc p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    background-color: #f6f6f6;
+  }
+
+  .header {
+    background-image: none;
+  }
+
+  .header_content {
+    background-color: #f6f6f6;
+    height: 100px;
+    width: 480px;
+  }
+
+  .header_content img {
+    display: none;
+  }
+
+  .header_content p {
+    font-size: 25px;
+    margin: 10px 15px;
+  }
+
+  .header_content span {
+    font-size: 20px;
+    margin: 50px 15px;
+  }
+
+  .header_logo {
+    margin-left: 15px;
+  }
+
+  .header_logo p {
+    margin-bottom: 10px;
+  }
+
+  .header_btn {
+    margin: 20px 0 20px 20px;
+    position: relative;
+  }
+
+  .header_mnu {
+    display: none;
+    position: fixed;
+    margin-top: 75px;
+  }
+
+  .header_mnu ul {
+    display: block;
+    text-align: right;
+    width: 100px;
+    margin-left: 300px;
+  }
+
+  .header_mnu ul li {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border: 1px solid #4d4d4d;
+    border-radius: 5px;
+  }
+
+  .header .menu-btn {
+    display: block;
+    margin-left: 350px;
+    position: fixed;
+    margin-top: 10px;
+  }
+
+  .about_text {
+    padding: 20px;
+  }
+
+  .about_text h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .about_text h2 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+
+  .about_text p {
+    width: 380px;
+  }
+
+  .about_btn {
+    position: relative;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .about_img {
+    margin: 10px 50px;
+  }
+
+  .about_img img {
+    width: 380px;
+  }
+
+  .service {
+    height: 1650px;
+  }
+
+  .service .service_content_info {
+    width: 100%;
+  }
+
+  .my-skills {
+    height: 440px;
+  }
+
+  .my-skills_content img {
+    width: 430px;
+  }
+
+  .portfolio {
+    height: 1850px;
+  }
+
+  .testimonials {
+    width: 450px;
+    height: 500px;
+  }
+
+  .testimonials_slide {
+    padding: 30px 30px;
+  }
+
+  .testimonials_slide img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .testimonials_slide h1 {
+    font-size: 25px;
+    margin: 0;
+    margin-top: 220px;
+  }
+
+  .testimonials_slide .ceo {
+    margin: 5px 0 5px 0;
+  }
+
+  .testimonials_slide p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .funfact {
+    display: block;
+  }
+
+  .funfact_content {
+    width: 450px;
+    text-align: center;
+    padding: 30px 70px;
+    margin: 0;
+  }
+
+  .funfact_content img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 50px 10px 50px;
+  }
+
+  .funfact_content p {
+    font-size: 25px;
+  }
+
+  .funfact_content span {
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0 50px 0 50px;
+  }
+
+  .footer {
+    height: 700px;
+    margin: 0;
   }
 
   .footer_bd_input {
