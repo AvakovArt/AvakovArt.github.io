@@ -445,7 +445,7 @@ body {
   font-family: 'Asap', sans-serif;
 }
 
-@media screen and (max-device-width: 320px) and (orientation: portrait) {
+@media all screen and (max-width: 320px) and (orientation: portrait) {
   header {
     background-color: #f6f6f6;
   }
