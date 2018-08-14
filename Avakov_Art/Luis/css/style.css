@@ -444,9 +444,7 @@ body {
   font-size: 40px;
   font-family: 'Asap', sans-serif;
 }
-
-
-@media (max-width: 480px) {
+@media screen and (max-width: 320px) {
   header {
     background-color: #f6f6f6;
   }
@@ -458,7 +456,7 @@ body {
   .header_content {
     background-color: #f6f6f6;
     height: 100px;
-    width: 480px;
+    width: 320px;
   }
 
   .header_content img {
@@ -466,12 +464,12 @@ body {
   }
 
   .header_content p {
-    font-size: 25px;
+    font-size: 20px;
     margin: 10px 15px;
   }
 
   .header_content span {
-    font-size: 20px;
+    font-size: 15px;
     margin: 50px 15px;
   }
 
@@ -498,7 +496,7 @@ body {
     display: block;
     text-align: right;
     width: 100px;
-    margin-left: 300px;
+    margin-left: 200px;
   }
 
   .header_mnu ul li {
@@ -513,7 +511,7 @@ body {
 
   .header .menu-btn {
     display: block;
-    margin-left: 350px;
+    margin-left: 250px;
     position: fixed;
     margin-top: 10px;
   }
@@ -533,7 +531,7 @@ body {
   }
 
   .about_text p {
-    width: 380px;
+    width: 280px;
   }
 
   .about_btn {
@@ -544,27 +542,23 @@ body {
   }
 
   .about_img {
-    margin: 10px 50px;
+    margin: 20px;
   }
 
   .about_img img {
-    width: 380px;
+    width: 280px;
   }
 
   .service {
     height: 1650px;
   }
 
-  .service .service_content_info {
-    width: 100%;
-  }
-
   .my-skills {
-    height: 440px;
+    height: 360px;
   }
 
   .my-skills_content img {
-    width: 430px;
+    width: 310px;
   }
 
   .portfolio {
@@ -572,8 +566,8 @@ body {
   }
 
   .testimonials {
-    width: 450px;
-    height: 500px;
+    width: 310px;
+    height: 400px;
   }
 
   .testimonials_slide {
@@ -581,14 +575,14 @@ body {
   }
 
   .testimonials_slide img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
 
   .testimonials_slide h1 {
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;
-    margin-top: 220px;
+    margin-top: 120px;
   }
 
   .testimonials_slide .ceo {
@@ -597,7 +591,7 @@ body {
 
   .testimonials_slide p {
     margin: 0;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .funfact {
@@ -605,16 +599,15 @@ body {
   }
 
   .funfact_content {
-    width: 450px;
+    width: 310px;
     text-align: center;
-    padding: 30px 70px;
+    padding: 30px 71px;
     margin: 0;
   }
 
   .funfact_content img {
     width: 100px;
     height: 100px;
-    margin: 10px 50px 10px 50px;
   }
 
   .funfact_content p {
@@ -624,12 +617,10 @@ body {
   .funfact_content span {
     font-size: 50px;
     font-weight: 400;
-    margin: 0 50px 0 50px;
   }
 
   .footer {
     height: 700px;
-    margin: 0;
   }
 
   .footer_bd_input {
