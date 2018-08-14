@@ -497,7 +497,7 @@ body {
     display: block;
     text-align: right;
     width: 100px;
-    margin-left: 170px;
+    margin-left: 200px;
   }
 
   .header_mnu ul li {
@@ -512,7 +512,7 @@ body {
 
   .header .menu-btn {
     display: block;
-    margin-left: 220px;
+    margin-left: 250px;
     position: fixed;
     margin-top: 10px;
   }
